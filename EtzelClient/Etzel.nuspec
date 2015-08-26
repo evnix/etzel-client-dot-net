@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>EtzelClient</id>
+    <version>1.0.3</version>
+    <title>EtzelClient</title>
+    <authors>Avinash, Gavin</authors>
+    <owners>EtzelServer.com</owners>
+   
+    <projectUrl>http://etzelserver.com</projectUrl>
+    <iconUrl>http://etzelserver.com/favicon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Driver for Etzel Queue Server</description>
+    <releaseNotes>Required NewtonSoft.Json and webSocketSharp.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Etzel Queue Server</tags>
+      
+    <dependencies>
+        <dependency id="Newtonsoft.Json" version="7.0.1" />
+    </dependencies>
+  
+  </metadata>
+  
+    <files>
+    <file src="bin/Release/EtzelClient.dll" target="lib" />
+        <file src="bin/Release/websocket-sharp.dll" target="lib" />
+    </files>
+    
+</package>
